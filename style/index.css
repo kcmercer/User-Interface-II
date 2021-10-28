@@ -1,7 +1,7 @@
 /*CSS Reset*/
 /* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
+v2.0 | 20110126
+License: none (public domain)
 */
 
 html, body, div, span, applet, object, iframe,
@@ -17,16 +17,16 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+    display: block;
 }
 *{
     box-sizing: border-box;
@@ -34,7 +34,9 @@ footer, header, hgroup, menu, nav, section {
     margin:0;
     max-width:100%;
 }
-
+body{
+    background-color:#E6E3F2;
+}
 /*header/nav styling*/
 header{
     text-align:center;
@@ -51,7 +53,7 @@ header nav a {
     transition: .5s;
 }
 header nav a:hover{
-    background-color: black;
+    background-color: #9392C9;
     color: white;
 }
 header nav{
@@ -93,3 +95,24 @@ section.midImg {
 }
 
 /*footer styling*/
+footer{
+    width: 100%;
+    background-color: #CDC7E6;
+    text-align: center;
+    padding: 2%;
+}
+footer button{
+    background-color: #CDC7E6;
+    font-size: 1.6rem;
+    padding: 1%;
+    transition: .5s;
+    border-radius: 10px;
+}
+footer button a{
+    text-decoration: none;
+    color: black;
+}
+footer button:hover{
+    background-color:#9392C9;
+    color: white;
+}
