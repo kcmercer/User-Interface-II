@@ -47,6 +47,7 @@ header h1{
 }
 header nav a {
     text-decoration: none;
+    background-color: #CDC7E6;
     color: black;
     border: 1px solid black;
     padding: .5%;
@@ -71,6 +72,7 @@ header nav{
     padding-bottom: 2%;
 }
 #intro p {
+    line-height:1.2;
     text-align: center;
     margin-right: 15%;
     margin-left: 15%;
@@ -83,15 +85,23 @@ section.midImg {
 
 /*project images styling*/
 .text {
-    display: flex;
-    max-width: 25%;
+    display:inline-block;
+    flex-wrap: nowrap;
+    width: 15%;
+    max-height: 50%;
+    line-height: 1.5;
+    text-align: center;
+    padding-bottom: .5%;
+    justify-content: center;
     position: relative;
-    bottom: 240px;
-    left: 60px;
+    bottom: 100px;
+    left: 200px;
 }
-.img1, .img2, .img3, .img4, .text {
+.img1, .img2, .img3, .img4{
     display:inline-block;
     margin: 1% .5% .5% .5%;
+    flex-wrap: nowrap;
+    width: 15%;
 }
 
 /*footer styling*/
@@ -100,7 +110,20 @@ footer{
     background-color: #CDC7E6;
     text-align: center;
     padding: 2%;
+} 
+footer nav a{
+    text-decoration: none;
+    background-color:#CDC7E6;
+    color: black;
+    border: 1px solid black;
+    padding: .5%;
+    transition: .5s;
 }
+footer nav a:hover{
+    background-color: #9392C9;
+    color: white;
+}
+/*
 footer button{
     background-color: #CDC7E6;
     font-size: 1.6rem;
@@ -116,3 +139,4 @@ footer button:hover{
     background-color:#9392C9;
     color: white;
 }
+*/

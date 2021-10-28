@@ -35,10 +35,10 @@ Once your repository is set up, practice what you learned today to create a port
 
 - [x]  A navigation bar with `About`, `Projects`, and `Contact` that link to the corresponding pages
 - [x]  Gallery of projects created with flexbox - you may use random images in place of project screenshots for now with the random image link: https://picsum.photos/ or you may use    images that mean something to you
-- [ ]  Information about you in place of the given placeholder
+- [x]  Information about you in place of the given placeholder
 - [x]  A `My Projects` button that links to the projects page
 - [x]  A `Contact Me` button that links to the contact page
-- [ ]  Links to any social media profiles (Instagram, linkedIn, Twitter) into the footer section of your home page
+- [x]  Links to any social media profiles (Instagram, linkedIn, Twitter) into the footer section of your home page
 
 ### Task 3: Stretch Goals
 
@@ -69,5 +69,5 @@ The following goals are designed to stretch your knowledge and may require addit
 
 Follow these steps for completing your project.
 
-- [ ] Submit a pull request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [x] Submit a pull request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 
