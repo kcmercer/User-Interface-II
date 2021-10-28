@@ -80,12 +80,16 @@ section.midImg {
 }
 
 /*project images styling*/
-.img{
-    display: flex;
-    padding-top: 2%;
-    gap: 15px;
-}
 .text {
     display: flex;
-    text-align: center;
+    max-width: 25%;
+    position: relative;
+    bottom: 240px;
+    left: 60px;
 }
+.img1, .img2, .img3, .img4, .text {
+    display:inline-block;
+    margin: 1% .5% .5% .5%;
+}
+
+/*footer styling*/
