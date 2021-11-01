@@ -84,24 +84,22 @@ section.midImg {
 }
 
 /*project images styling*/
+.projects{
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-evenly;
+}
 .text {
-    display:inline-block;
-    flex-wrap: nowrap;
     width: 15%;
-    max-height: 50%;
-    line-height: 1.5;
+    align-content: center;
     text-align: center;
-    padding-bottom: .5%;
-    justify-content: center;
-    position: relative;
-    bottom: 100px;
-    left: 200px;
+    margin-top: 5%;
+    margin-right: 5%;
 }
 .img1, .img2, .img3, .img4{
-    display:inline-block;
-    margin: 1% .5% .5% .5%;
-    flex-wrap: nowrap;
-    width: 15%;
+    width: 20%;
+    margin-left: 2%;
+    margin-bottom: 2%;
 }
 
 /*footer styling*/
@@ -141,12 +139,29 @@ footer button:hover{
 }
 */
 
-/*mobile/tablet media styling*/
+/*tablet media styling*/
 
 @media (max-width: 800px) {
-
+    .projects {
+        flex-wrap: wrap;
+    }
+    .projects .text{
+        width: 100%;
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-bottom: 5%;
+    }
 }
 
+/*mobile media styling*/
 @media (max-width: 500px) {
-
+    .projects {
+        flex-wrap: wrap;
+    }
+    .projects div{
+        width: 40%;
+    }
+    .projects .text{
+        margin-top: 4%;
+    }
 }
