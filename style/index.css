@@ -155,6 +155,11 @@ footer button:hover{
 
 /*mobile media styling*/
 @media (max-width: 500px) {
+    header nav{
+        flex-direction: column;
+        margin-right: 35%;
+        margin-left: 35%;
+    }
     .projects {
         flex-wrap: wrap;
     }
@@ -162,6 +167,16 @@ footer button:hover{
         width: 40%;
     }
     .projects .text{
-        margin-top: 4%;
+        margin: 4% 10% 4% 10%;
     }
 }
+
+/* stretch 1366px scaling*/
+@media (max-width: 1366px) {
+    .projects .text {
+        width: 20%;
+        margin: 5% 1% 1% 1%;
+        text-align: center;
+    }
+}
+
