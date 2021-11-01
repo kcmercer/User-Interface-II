@@ -140,3 +140,13 @@ footer button:hover{
     color: white;
 }
 */
+
+/*mobile/tablet media styling*/
+
+@media (max-width: 800px) {
+
+}
+
+@media (max-width: 500px) {
+
+}
